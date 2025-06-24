@@ -16,7 +16,7 @@ export function Navbar () {
                         <li><a href="">BUZOS</a></li>
                     </ul>
                 </nav>
-                <img className='carrito' src= {carrito} alt="Carrito de compra" />
+                <img className='carrito' src= {carrito} alt="Carrito de compras" />
             </header>
         </>)
 }
