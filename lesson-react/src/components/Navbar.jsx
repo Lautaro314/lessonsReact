@@ -1,4 +1,5 @@
 import logo from '../assets/logo.png';
+import carrito from '../assets/carrito.png'
 
 export function Navbar () {
 
@@ -15,7 +16,7 @@ export function Navbar () {
                         <li><a href="">BUZOS</a></li>
                     </ul>
                 </nav>
-                <img src="" alt="" />
+                <img className='carrito' src= {carrito} alt="Carrito de compra" />
             </header>
         </>)
 }
